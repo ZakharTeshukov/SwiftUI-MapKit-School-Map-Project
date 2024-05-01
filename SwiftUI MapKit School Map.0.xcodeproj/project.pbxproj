@@ -15,6 +15,17 @@
 		192567822BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192567812BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0Tests.swift */; };
 		1925678C2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678B2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift */; };
 		1925678E2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678D2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift */; };
+		1925679B2BDCE9F000502CAD /* Location1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925679A2BDCE9F000502CAD /* Location1View.swift */; };
+		1925679E2BDCEA8D00502CAD /* Location2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925679D2BDCEA8D00502CAD /* Location2View.swift */; };
+		196A43492BDD06C300CDE5DB /* Location3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A43482BDD06C300CDE5DB /* Location3View.swift */; };
+		196A434B2BDD06E800CDE5DB /* Location4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A434A2BDD06E800CDE5DB /* Location4View.swift */; };
+		196A434D2BDD070800CDE5DB /* Location5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A434C2BDD070800CDE5DB /* Location5View.swift */; };
+		196A434F2BDD078A00CDE5DB /* Location6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A434E2BDD078A00CDE5DB /* Location6View.swift */; };
+		196A43512BDD0BA400CDE5DB /* Location7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A43502BDD0BA400CDE5DB /* Location7View.swift */; };
+		196A43532BDD0C4500CDE5DB /* Location8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A43522BDD0C4500CDE5DB /* Location8View.swift */; };
+		196A43552BDD0C6B00CDE5DB /* Location9View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A43542BDD0C6B00CDE5DB /* Location9View.swift */; };
+		196A43572BDD0CEB00CDE5DB /* Location10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A43562BDD0CEB00CDE5DB /* Location10View.swift */; };
+		196A43642BDF2E0B00CDE5DB /*  menuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A43632BDF2E0B00CDE5DB /*  menuBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		192567872BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Knowledge Wiki 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1925678B2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Knowledge_Wiki_2_0UITests.swift; sourceTree = "<group>"; };
 		1925678D2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1925679A2BDCE9F000502CAD /* Location1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location1View.swift; sourceTree = "<group>"; };
+		1925679D2BDCEA8D00502CAD /* Location2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location2View.swift; sourceTree = "<group>"; };
+		196A43482BDD06C300CDE5DB /* Location3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location3View.swift; sourceTree = "<group>"; };
+		196A434A2BDD06E800CDE5DB /* Location4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location4View.swift; sourceTree = "<group>"; };
+		196A434C2BDD070800CDE5DB /* Location5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location5View.swift; sourceTree = "<group>"; };
+		196A434E2BDD078A00CDE5DB /* Location6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location6View.swift; sourceTree = "<group>"; };
+		196A43502BDD0BA400CDE5DB /* Location7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location7View.swift; sourceTree = "<group>"; };
+		196A43522BDD0C4500CDE5DB /* Location8View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location8View.swift; sourceTree = "<group>"; };
+		196A43542BDD0C6B00CDE5DB /* Location9View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location9View.swift; sourceTree = "<group>"; };
+		196A43562BDD0CEB00CDE5DB /* Location10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location10View.swift; sourceTree = "<group>"; };
+		196A43632BDF2E0B00CDE5DB /*  menuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " menuBarView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,23 @@
 		1925676C2BDCDF1700502CAD /* SwiftUI Knowledge Wiki 2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				1925676D2BDCDF1700502CAD /* SwiftUI_Knowledge_Wiki_2_0App.swift */,
 				1925676F2BDCDF1700502CAD /* ContentView.swift */,
+				196A43632BDF2E0B00CDE5DB /*  menuBarView.swift */,
+				1925676D2BDCDF1700502CAD /* SwiftUI_Knowledge_Wiki_2_0App.swift */,
 				192567712BDCDF1700502CAD /* Item.swift */,
-				192567732BDCDF1900502CAD /* Assets.xcassets */,
-				192567752BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0.entitlements */,
+				1925679A2BDCE9F000502CAD /* Location1View.swift */,
+				1925679D2BDCEA8D00502CAD /* Location2View.swift */,
+				196A43482BDD06C300CDE5DB /* Location3View.swift */,
+				196A434A2BDD06E800CDE5DB /* Location4View.swift */,
+				196A434C2BDD070800CDE5DB /* Location5View.swift */,
+				196A434E2BDD078A00CDE5DB /* Location6View.swift */,
+				196A43502BDD0BA400CDE5DB /* Location7View.swift */,
+				196A43522BDD0C4500CDE5DB /* Location8View.swift */,
+				196A43542BDD0C6B00CDE5DB /* Location9View.swift */,
+				196A43562BDD0CEB00CDE5DB /* Location10View.swift */,
 				192567762BDCDF1900502CAD /* Preview Content */,
+				192567752BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0.entitlements */,
+				192567732BDCDF1900502CAD /* Assets.xcassets */,
 			);
 			path = "SwiftUI Knowledge Wiki 2.0";
 			sourceTree = "<group>";
@@ -211,7 +244,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 192567652BDCDF1700502CAD /* Build configuration list for PBXProject "SwiftUI Knowledge Wiki 2.0" */;
+			buildConfigurationList = 192567652BDCDF1700502CAD /* Build configuration list for PBXProject "SwiftUI MapKit School Map.0" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -265,6 +298,17 @@
 				192567702BDCDF1700502CAD /* ContentView.swift in Sources */,
 				192567722BDCDF1700502CAD /* Item.swift in Sources */,
 				1925676E2BDCDF1700502CAD /* SwiftUI_Knowledge_Wiki_2_0App.swift in Sources */,
+				1925679B2BDCE9F000502CAD /* Location1View.swift in Sources */,
+				196A43642BDF2E0B00CDE5DB /*  menuBarView.swift in Sources */,
+				1925679E2BDCEA8D00502CAD /* Location2View.swift in Sources */,
+				196A434F2BDD078A00CDE5DB /* Location6View.swift in Sources */,
+				196A43492BDD06C300CDE5DB /* Location3View.swift in Sources */,
+				196A43552BDD0C6B00CDE5DB /* Location9View.swift in Sources */,
+				196A43532BDD0C4500CDE5DB /* Location8View.swift in Sources */,
+				196A434B2BDD06E800CDE5DB /* Location4View.swift in Sources */,
+				196A43572BDD0CEB00CDE5DB /* Location10View.swift in Sources */,
+				196A434D2BDD070800CDE5DB /* Location5View.swift in Sources */,
+				196A43512BDD0BA400CDE5DB /* Location7View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +620,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		192567652BDCDF1700502CAD /* Build configuration list for PBXProject "SwiftUI Knowledge Wiki 2.0" */ = {
+		192567652BDCDF1700502CAD /* Build configuration list for PBXProject "SwiftUI MapKit School Map.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1925678F2BDCDF1900502CAD /* Debug */,

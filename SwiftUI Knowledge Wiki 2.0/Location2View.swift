@@ -9,3 +9,12 @@ struct Location2View: View {
             .navigationBarTitle(locationName)
     }
 }
+
+struct Location2View_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView {
+            Location2View(locationName: "Location 2")
+        }
+    }
+}
+
