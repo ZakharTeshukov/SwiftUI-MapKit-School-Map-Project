@@ -52,8 +52,6 @@ struct ContentView: View {
         }
     }
 }
-    
-
 
 struct MapView: UIViewRepresentable {
     

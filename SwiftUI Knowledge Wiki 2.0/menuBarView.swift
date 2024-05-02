@@ -1,6 +1,4 @@
 import SwiftUI
-import MapKit
-import SwiftData
 
 struct menuBarView: View {
     var body: some View {
@@ -100,8 +98,6 @@ struct menuBarView: View {
             }
         }
         .scrollIndicators(.hidden)
-        
-        
     }
 }
         
@@ -111,6 +107,3 @@ struct menuBarView_Previews: PreviewProvider {
         menuBarView()
     }
 }
-
-
-
