@@ -12,7 +12,6 @@
 		192567722BDCDF1700502CAD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192567712BDCDF1700502CAD /* Item.swift */; };
 		192567742BDCDF1900502CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192567732BDCDF1900502CAD /* Assets.xcassets */; };
 		192567782BDCDF1900502CAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192567772BDCDF1900502CAD /* Preview Assets.xcassets */; };
-		192567822BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192567812BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0Tests.swift */; };
 		1925678C2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678B2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift */; };
 		1925678E2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678D2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift */; };
 		1925679B2BDCE9F000502CAD /* Location1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925679A2BDCE9F000502CAD /* Location1View.swift */; };
@@ -45,7 +44,6 @@
 		192567752BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Knowledge_Wiki_2_0.entitlements; sourceTree = "<group>"; };
 		192567772BDCDF1900502CAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1925677D2BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Knowledge Wiki 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		192567812BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Knowledge_Wiki_2_0Tests.swift; sourceTree = "<group>"; };
 		192567872BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Knowledge Wiki 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1925678B2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Knowledge_Wiki_2_0UITests.swift; sourceTree = "<group>"; };
 		1925678D2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				1925676C2BDCDF1700502CAD /* SwiftUI Knowledge Wiki 2.0 */,
-				192567802BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0Tests */,
 				1925678A2BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0UITests */,
 				1925676B2BDCDF1700502CAD /* Products */,
 			);
@@ -106,9 +103,9 @@
 				1925676D2BDCDF1700502CAD /* SwiftUI_Knowledge_Wiki_2_0App.swift */,
 				192567712BDCDF1700502CAD /* Item.swift */,
 				1925679A2BDCE9F000502CAD /* Location1View.swift */,
-				192567762BDCDF1900502CAD /* Preview Content */,
 				192567752BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0.entitlements */,
 				192567732BDCDF1900502CAD /* Assets.xcassets */,
+				192567762BDCDF1900502CAD /* Preview Content */,
 			);
 			path = "SwiftUI Knowledge Wiki 2.0";
 			sourceTree = "<group>";
@@ -119,14 +116,6 @@
 				192567772BDCDF1900502CAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		192567802BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0Tests */ = {
-			isa = PBXGroup;
-			children = (
-				192567812BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0Tests.swift */,
-			);
-			path = "SwiftUI Knowledge Wiki 2.0Tests";
 			sourceTree = "<group>";
 		};
 		1925678A2BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0UITests */ = {
@@ -280,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192567822BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
