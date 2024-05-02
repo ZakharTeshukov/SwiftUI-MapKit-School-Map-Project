@@ -12,8 +12,8 @@
 		192567722BDCDF1700502CAD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192567712BDCDF1700502CAD /* Item.swift */; };
 		192567742BDCDF1900502CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192567732BDCDF1900502CAD /* Assets.xcassets */; };
 		192567782BDCDF1900502CAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192567772BDCDF1900502CAD /* Preview Assets.xcassets */; };
-		1925678C2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678B2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift */; };
-		1925678E2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678D2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift */; };
+		1925678C2BDCDF1900502CAD /* Tests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678B2BDCDF1900502CAD /* Tests1.swift */; };
+		1925678E2BDCDF1900502CAD /* Tests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678D2BDCDF1900502CAD /* Tests2.swift */; };
 		1925679B2BDCE9F000502CAD /* Location1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925679A2BDCE9F000502CAD /* Location1View.swift */; };
 		196A43642BDF2E0B00CDE5DB /*  menuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A43632BDF2E0B00CDE5DB /*  menuBarView.swift */; };
 /* End PBXBuildFile section */
@@ -45,8 +45,8 @@
 		192567772BDCDF1900502CAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1925677D2BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Knowledge Wiki 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		192567872BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Knowledge Wiki 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1925678B2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Knowledge_Wiki_2_0UITests.swift; sourceTree = "<group>"; };
-		1925678D2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1925678B2BDCDF1900502CAD /* Tests1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests1.swift; sourceTree = "<group>"; };
+		1925678D2BDCDF1900502CAD /* Tests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests2.swift; sourceTree = "<group>"; };
 		1925679A2BDCE9F000502CAD /* Location1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location1View.swift; sourceTree = "<group>"; };
 		196A43632BDF2E0B00CDE5DB /*  menuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " menuBarView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				1925676C2BDCDF1700502CAD /* SwiftUI Knowledge Wiki 2.0 */,
-				1925678A2BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0UITests */,
+				1925678A2BDCDF1900502CAD /* Tests */,
 				1925676B2BDCDF1700502CAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,13 +118,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1925678A2BDCDF1900502CAD /* SwiftUI Knowledge Wiki 2.0UITests */ = {
+		1925678A2BDCDF1900502CAD /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1925678B2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift */,
-				1925678D2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift */,
+				1925678B2BDCDF1900502CAD /* Tests1.swift */,
+				1925678D2BDCDF1900502CAD /* Tests2.swift */,
 			);
-			path = "SwiftUI Knowledge Wiki 2.0UITests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1925678C2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITests.swift in Sources */,
-				1925678E2BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0UITestsLaunchTests.swift in Sources */,
+				1925678C2BDCDF1900502CAD /* Tests1.swift in Sources */,
+				1925678E2BDCDF1900502CAD /* Tests2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
