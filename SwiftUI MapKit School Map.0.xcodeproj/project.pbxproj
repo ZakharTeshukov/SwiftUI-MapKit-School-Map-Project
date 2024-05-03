@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		1925676E2BDCDF1700502CAD /* SwiftUI_Knowledge_Wiki_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925676D2BDCDF1700502CAD /* SwiftUI_Knowledge_Wiki_2_0App.swift */; };
 		192567702BDCDF1700502CAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925676F2BDCDF1700502CAD /* ContentView.swift */; };
-		192567722BDCDF1700502CAD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192567712BDCDF1700502CAD /* Item.swift */; };
 		192567742BDCDF1900502CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192567732BDCDF1900502CAD /* Assets.xcassets */; };
 		192567782BDCDF1900502CAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192567772BDCDF1900502CAD /* Preview Assets.xcassets */; };
-		1925678C2BDCDF1900502CAD /* Tests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678B2BDCDF1900502CAD /* Tests1.swift */; };
 		1925678E2BDCDF1900502CAD /* Tests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678D2BDCDF1900502CAD /* Tests2.swift */; };
 		1925679B2BDCE9F000502CAD /* Location1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925679A2BDCE9F000502CAD /* Location1View.swift */; };
 		195243762BE3EF21001FE1A8 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195243752BE3EF21001FE1A8 /* HomeScreenView.swift */; };
 		195243782BE4BC00001FE1A8 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195243772BE4BC00001FE1A8 /* LocationListView.swift */; };
 		1952437A2BE4BE9A001FE1A8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195243792BE4BE9A001FE1A8 /* SettingsView.swift */; };
+		1952437D2BE4BF85001FE1A8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192567712BDCDF1700502CAD /* Item.swift */; };
+		1952437E2BE4BF86001FE1A8 /* Tests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925678B2BDCDF1900502CAD /* Tests1.swift */; };
 		196A43642BDF2E0B00CDE5DB /* menuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196A43632BDF2E0B00CDE5DB /* menuBarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -109,8 +109,8 @@
 				195243772BE4BC00001FE1A8 /* LocationListView.swift */,
 				196A43632BDF2E0B00CDE5DB /* menuBarView.swift */,
 				1925679A2BDCE9F000502CAD /* Location1View.swift */,
-				195243792BE4BE9A001FE1A8 /* SettingsView.swift */,
 				192567712BDCDF1700502CAD /* Item.swift */,
+				195243792BE4BE9A001FE1A8 /* SettingsView.swift */,
 				1925676D2BDCDF1700502CAD /* SwiftUI_Knowledge_Wiki_2_0App.swift */,
 				192567752BDCDF1900502CAD /* SwiftUI_Knowledge_Wiki_2_0.entitlements */,
 				192567732BDCDF1900502CAD /* Assets.xcassets */,
@@ -267,8 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				192567702BDCDF1700502CAD /* ContentView.swift in Sources */,
+				1952437D2BE4BF85001FE1A8 /* Item.swift in Sources */,
 				1952437A2BE4BE9A001FE1A8 /* SettingsView.swift in Sources */,
-				192567722BDCDF1700502CAD /* Item.swift in Sources */,
 				1925676E2BDCDF1700502CAD /* SwiftUI_Knowledge_Wiki_2_0App.swift in Sources */,
 				195243762BE3EF21001FE1A8 /* HomeScreenView.swift in Sources */,
 				195243782BE4BC00001FE1A8 /* LocationListView.swift in Sources */,
@@ -288,8 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1925678C2BDCDF1900502CAD /* Tests1.swift in Sources */,
 				1925678E2BDCDF1900502CAD /* Tests2.swift in Sources */,
+				1952437E2BE4BF86001FE1A8 /* Tests1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
