@@ -14,17 +14,17 @@ struct ContentView: View {
                     TabView {
                         Group {
                             NavigationStack {
-                                menuBarView()
+                                HomeScreenView()
                                     .navigationTitle("Locations")
                                     .ignoresSafeArea(.all)
                             }
                             .tabItem {
-                                Label("Locations", systemImage: "homekit")
+                                Label("Home", systemImage: "homekit")
                                     
                             }
                             NavigationStack {
                                 
-                                menuBarView()
+                                LocationListView()
                                     .navigationTitle("Locations")
                             }
                             .tabItem {
@@ -36,7 +36,7 @@ struct ContentView: View {
                                     .navigationTitle("Locations")
                             }
                             .tabItem {
-                                Label("Locations", systemImage: "map")
+                                Label("Menu", systemImage: "chart.bar.doc.horizontal")
                             }
                             NavigationStack {
                                 
@@ -44,7 +44,7 @@ struct ContentView: View {
                                     .navigationTitle("Locations")
                             }
                             .tabItem {
-                                Label("Locations", systemImage: "map")
+                                Label("Settings", systemImage: "gear")
                             }
                         }
                     } //add properties to group bellow
