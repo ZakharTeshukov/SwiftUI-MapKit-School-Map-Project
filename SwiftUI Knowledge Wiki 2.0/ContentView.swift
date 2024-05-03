@@ -19,7 +19,8 @@ struct ContentView: View {
                                     .ignoresSafeArea(.all)
                             }
                             .tabItem {
-                                Label("Locations", systemImage: "map")
+                                Label("Locations", systemImage: "homekit")
+                                    
                             }
                             NavigationStack {
                                 
