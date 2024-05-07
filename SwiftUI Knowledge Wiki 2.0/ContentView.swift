@@ -40,7 +40,7 @@ struct ContentView: View {
                             }
                             NavigationStack {
                                 
-                                menuBarView()
+                                SettingsView()
                                     .navigationTitle("Locations")
                             }
                             .tabItem {
