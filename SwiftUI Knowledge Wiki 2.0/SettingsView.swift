@@ -4,7 +4,9 @@ struct SettingsView: View {
     @ObservedObject var colorSchemeManager = ColorSchemeManager.shared
 
     var body: some View {
+        
         NavigationView {
+            
             List {
                 Section(header: Text("Appearance")) {
                     Picker(selection: $colorSchemeManager.selectedColorScheme, label: Text("Color Scheme")) {
@@ -19,6 +21,7 @@ struct SettingsView: View {
             .navigationTitle("Settings:")
             .preferredColorScheme(colorSchemeManager.getPreferredColorScheme())
         }
+        
     }
 }
 
