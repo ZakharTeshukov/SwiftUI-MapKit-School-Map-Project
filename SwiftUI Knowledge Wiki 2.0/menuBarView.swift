@@ -9,7 +9,7 @@ struct menuBarView: View {
                         .fill(LinearGradient(gradient: Gradient(colors: [Color.blue, Color.green]), startPoint: .leading, endPoint: .trailing)) // Set the background gradient
                         .frame(width: 200, height: 55)
 
-                    Text("Settings")
+                    Text("Menu")
                         .cornerRadius(1.0)
                         .font(.system(size: 35))
                         .fontWeight(.bold)
