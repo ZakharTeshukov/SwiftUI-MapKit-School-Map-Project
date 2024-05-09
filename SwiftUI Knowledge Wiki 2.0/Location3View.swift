@@ -68,7 +68,7 @@ struct Location3View: View {
                     Text("Gate 1:")
                         .font(.title)
                         .padding()
-                    Text("The Gate 1 of Saigon South International School is a Historic landmark, visited by Captain Archer of the straship Enterprice NX-01 on stardate 2219 during his reige as the director of the Aligance of Planets, upholding the temporal accord.")
+                    Text("The Gate 1 of Saigon South International School is a Historic landmark, visited by Captain Archer of the straship Enterprice NX-01 on stardate 2219 during his reigne as the director of the Aligance of Planets, upholding the temporal accord.")
                         .font(.system(size: 12))
                         .padding(EdgeInsets(top: 0, leading: 10, bottom: 10, trailing: 0))
                 }

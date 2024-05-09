@@ -47,7 +47,7 @@ struct ContentView: View {
                                 Label("Locations", systemImage: "map")
                             }
                             
-                            // This tabItem adds the LocationListView with an Apple Maps icon onto the navigation bar and sets it as the seccond page of the navigation bar.
+                            // This tabItem adds the menuBarView page with an SF Symbols menu icon onto the navigation bar and sets it as the third page of the navigation bar.
                             NavigationStack {
                                 menuBarView()
                                     .navigationTitle("Locations")
@@ -57,7 +57,7 @@ struct ContentView: View {
                                 Label("Menu", systemImage: "chart.bar.doc.horizontal")
                             }
                             
-                            // This tabItem adds the LocationListView with an Apple Maps icon onto the navigation bar and sets it as the seccond page of the navigation bar.
+                            // This tabItem adds the SettingsView page with a gear icon onto the navigation bar and sets it as the fourth page of the navigation bar.
                             NavigationStack {
                                 SettingsView()
                                     .navigationTitle("Settings")
@@ -70,7 +70,7 @@ struct ContentView: View {
                     } // End of TabView
                 } // End of VStack
             } // End of ZStack
-        } // NavigationStack Ends
+        } // NavigationStack Ends (Nav bar is over)
     }
 }
 
