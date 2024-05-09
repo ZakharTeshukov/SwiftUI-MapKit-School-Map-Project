@@ -6,15 +6,15 @@ struct LocationListView: View {
     var body: some View {
         List {
             Section(header: Text("Gates")) {
-                NavigationLink(destination: Location1View(locationName: "Location 1")) {
+                NavigationLink(destination: Location3View(locationName: "Location 1")) {
                     Text("Gate 1")
                 }
 
-                NavigationLink(destination: Location1View(locationName: "Location 2")) {
+                NavigationLink(destination: Location3View(locationName: "Location 2")) {
                     Text("Gate 2")
                 }
                 
-                NavigationLink(destination: Location1View(locationName: "Location 3")) {
+                NavigationLink(destination: Location3View(locationName: "Location 3")) {
                     Text("Gate 3")
                 }
             }
