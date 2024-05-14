@@ -66,7 +66,7 @@ struct ContentView: View {
                             .tabItem {
                                 Label("Settings", systemImage: "gear")
                             }
-                        }
+                        } //End of Main Group (Navigation Stack)
                     } // End of TabView
                 } // End of VStack
             } // End of ZStack
